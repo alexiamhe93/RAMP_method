@@ -1,7 +1,6 @@
 # Data for replication
 
 This folder contains two zip files containing the data required to replicate the analysis. This data is used in the Python notebooks included within the repository.
-There are two zip files containing the relevant data required.
 
 ## Zipfile 1 ("data_to_use.zip")
 
