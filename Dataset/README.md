@@ -11,17 +11,11 @@ This zip file contains two spreadsheets containing the empirical data used in th
 This includes the full dataset coded for the analysis. The full dataset contains 21,994 sentences coded for misunderstanding. All author names and sentences have been anonymized.
 This dataset is comprised of:
 
-1. Data downloaded through the Reddit API
+1. **Reddit data**: This data was downloaded through the Reddit API for the purposes of this study.
 
-This data was downloaded for the purposes of this study.
+2. **Twitter Customer Support** (Thought Vector & Axelbrooke, 2017): This data was downloaded from: https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter (Copyright: CC BY-NC-SA 4.0).
 
-2. Twitter Customer Support (Thought Vector & Axelbrooke, 2017)
-
-This data was downloaded from: https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter (Copyright: CC BY-NC-SA 4.0).
-
-3. Wikipedia Talk Pages (Danescu-Niculescu-Mizil et al., 2012)
-
-This data was downloaded using Cornell University's ConvoKit Python package (see: https://convokit.cornell.edu/documentation/wiki.html) (Copyright: CC BY 4.0)
+3. **Wikipedia Talk Pages** (Danescu-Niculescu-Mizil et al., 2012): This data was downloaded using Cornell University's ConvoKit Python package (see: https://convokit.cornell.edu/documentation/wiki.html) (Copyright: CC BY 4.0)
 
 ### Spreadsheet 2 ("IRR_data.csv") 
 
