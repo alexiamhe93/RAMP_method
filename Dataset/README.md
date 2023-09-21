@@ -46,6 +46,3 @@ This spreadsheet comprises of synonyms or alternative words to augment the list 
 Danescu-Niculescu-Mizil, C., Lee, L., Pang, B., & Kleinberg, J. (2012). Echoes of power: Language effects and power differences in social interaction. Proceedings of the 21st International Conference on World Wide Web, 699–708. https://doi.org/10.1145/2187836.2187931
 
 Thought Vector, & Axelbrooke, S. (2017). Customer Support on Twitter (v10). https://kaggle.com/thoughtvector/customer-support-on-twitter
-
-> **NOTE** the zip files contain copies of the datasets/dictionaries, used by the tutorial notebooks for downloading the data.
-
