@@ -8,7 +8,8 @@ This zip file contains two spreadsheets containing the empirical data used in th
 
 ### Spreadsheet 1 ("train_test.csv") 
 
-This includes the full dataset coded for the analysis. This spreadsheet is comprised of:
+This includes the full dataset coded for the analysis. The full dataset contains 21,994 sentences coded for misunderstanding. All author names and sentences have been anonymized.
+This dataset is comprised of:
 
 1. Data downloaded through the Reddit API
 
@@ -22,13 +23,11 @@ This data was downloaded from: https://www.kaggle.com/datasets/thoughtvector/cus
 
 This data was downloaded using Cornell University's ConvoKit Python package (see: https://convokit.cornell.edu/documentation/wiki.html) (Copyright: CC BY 4.0)
 
-The full dataset contains 21,994 sentences coded for misunderstanding. All author names and sentences have been anonymized.
-
 ### Spreadsheet 2 ("IRR_data.csv") 
 
 This comprises of a subset of the dataset used for calculating inter-rater reliability statistics. The two csv files can be recombined using the 'Turn_id' column.
 
-# Zipfile 2 ("Dictionary.zip)
+## Zipfile 2 ("Dictionary.zip)
 
 This zip file also contains two spreadsheets used in a phrase-based dictionary classifier. 
 
