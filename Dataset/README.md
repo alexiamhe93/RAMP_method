@@ -1,12 +1,18 @@
 # Data for replication
 
-This folder contains two zip files containing the data required to replicate the analysis. This data is used in the Python notebooks included within the repository.
+This folder contains two zip files containing the data required to replicate the article's results. This data is used in the Python notebooks included within the repository.
 
-## Zipfile 1 ("data_to_use.zip")
+The file "data.zip" contains four csv files:
 
-This zip file contains two spreadsheets containing the empirical data used in the analysis.
+1. **Train.csv** and **Validation.csv** are the final manually coded data for developing and a rule-based, supervised, and few-shot text classifier.
 
-### Spreadsheet 1 ("train_test.csv") 
+2. **RAMP_Stage1.csv** Contains details of all the manual coding iterations over the inference loop, including the final shared set used to calculate reported inter-rater reliability. 
+
+3. **RAMP_Stage2.csv** Contains a record of classifier runs (predictive accuracy and adjustments to protocols)
+
+4. **RAMP_Stage3.csv** Contains the final classifications of all classifiers on the validation data.
+
+# Data details
 
 This includes the full dataset coded for the analysis. The full dataset contains 21,994 sentences coded for misunderstanding. All author names and sentences have been anonymized.
 This dataset is comprised of:
@@ -16,22 +22,6 @@ This dataset is comprised of:
 2. **Twitter Customer Support** (Thought Vector & Axelbrooke, 2017): This data was downloaded from: https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter (Copyright: CC BY-NC-SA 4.0).
 
 3. **Wikipedia Talk Pages** (Danescu-Niculescu-Mizil et al., 2012): This data was downloaded using Cornell University's ConvoKit Python package (see: https://convokit.cornell.edu/documentation/wiki.html) (Copyright: CC BY 4.0)
-
-### Spreadsheet 2 ("IRR_data.csv") 
-
-This comprises of a subset of the dataset used for calculating inter-rater reliability statistics. The two csv files can be recombined using the 'Turn_id' column.
-
-## Zipfile 2 ("Dictionary.zip)
-
-This zip file also contains two spreadsheets used in a phrase-based dictionary classifier. 
-
-### Spreadsheet 1 ("Misunderstanding_dictionary.csv")
-
-This spreadsheet contains a list of phrases indicating misunderstandings. 
-
-### Spreadsheet 2 ("Augmenting_dictionary.csv")
-
-This spreadsheet comprises of synonyms or alternative words to augment the list of phrases in the main dictionary.
 
 # References: 
 
