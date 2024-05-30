@@ -6,7 +6,7 @@ This repository contains data for use alongside the article titled:
 
 The repository contains:
 
-1. The codebook used for manually coding the data.
+1. Supplementary materials A: The codebook used for manually coding the data.
 2. A Google Colab Python notebook for conducting the analysis
 3. All data required for replication
 
