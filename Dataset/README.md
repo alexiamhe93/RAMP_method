@@ -4,13 +4,15 @@ This folder contains two zip files containing the data required to replicate the
 
 The file "data.zip" contains four csv files:
 
-1. **Train.csv** and **Validation.csv** are the final manually coded data for developing and a rule-based, supervised, and few-shot text classifier.
+1. **train_test.csv** The raw text data as well as manual coding for misunderstandings and the train/test split for both One-shot and RAMP groups.
 
-2. **RAMP_Stage1.csv** Contains details of all the manual coding iterations over the inference loop, including the final shared set used to calculate reported inter-rater reliability. 
+2. **RAMP_Stage1.csv** Contains details of all the manual coding iterations over the inference loop for the RAMP group, including the final shared set used to calculate reported inter-rater reliability. Also includes the manual coding for the One-shot group.
 
-3. **RAMP_Stage2.csv** Contains a record of classifier runs (predictive accuracy and adjustments to protocols)
+3. **RAMP_Stage2.csv** Contains a record of classifier runs (predictive accuracy and adjustments to protocols) for RAMP.
 
-4. **RAMP_Stage3.csv** Contains the final classifications of all classifiers on the validation data.
+4. **RAMP_Stage3.csv** Contains the final classifications of all classifiers on the RAMP test data.
+
+5. **results_OneShot.csv** Contains the classification results of all classifiers on the One-shot test data.
 
 # Data details
 
